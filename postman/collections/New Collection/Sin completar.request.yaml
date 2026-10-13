@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/clientes
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"prueba@gmail.com\"\r
+
+    }"
+order: 6000

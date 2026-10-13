@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:3000/clientes
+description: ""
+url: http://localhost:3000/clientes
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Felipe Díaz\",\r
+
+    \  \"email\": \"felipe@gmail.com\",\r
+
+    \  \"telefono\": \"+56955555555\"\r
+
+    }"
+order: 10000

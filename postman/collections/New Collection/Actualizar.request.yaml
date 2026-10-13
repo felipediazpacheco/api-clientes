@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/clientes/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Nombre Actualizado\",\r
+
+    \  \"email\": \"facu@gmail.com\",\r
+
+    \  \"telefono\": \"+56900000000\"\r
+
+    }"
+order: 3000

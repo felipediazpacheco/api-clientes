@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:3000/clientes
+description: ""
+url: Lista2
+method: GET
+order: 8000

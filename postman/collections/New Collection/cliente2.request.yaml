@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/clientes
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nombre\": \"Facundo Huisca\",\r
+
+    \  \"email\": \"facu@gmail.com\",\r
+
+    \  \"telefono\": \"+56912345678\"\r
+
+    }"
+order: 11000
